@@ -1,6 +1,4 @@
-Sure, here’s a detailed explanation in simple language for each of your questions:
 
----
 
 ### 1. Structure of SRS (Software Requirements Specification)  
 The **SRS (Software Requirements Specification)** document is organized in a structured way to capture all requirements clearly. The structure typically includes the following:
@@ -187,4 +185,22 @@ The **Requirements Specification** stage involves documenting the gathered requi
      - Ensures that requirements are feasible within the technical and budget constraints.
 
 ---
+Here are the functional and non-functional requirements for playing a video on an LMS (Learning Management System) in a **Software Engineering course**.
 
+### Functional Requirements
+1. **Play/Pause Control**: The video player must allow users to play, pause, rewind, and fast-forward the video.
+2. **Seek Functionality**: Users should be able to seek to specific points in the video using a slider or timestamp navigation.
+3. **Volume Control**: Users must have control over video volume and the option to mute or unmute.
+4. **Playback Speed Control**: The player should allow users to adjust the playback speed (e.g., 0.5x, 1x, 1.5x, 2x).
+5. **Subtitle/Caption Support**: The player should support subtitles or closed captions in multiple languages where applicable.
+6. **Quality Selection**: The player should allow users to choose video quality (e.g., 360p, 720p, 1080p) based on their network capabilities.
+
+### Non-functional Requirements
+1. **Responsiveness**: The video player must adapt to various devices (e.g., mobile, tablet, desktop) and screen sizes.
+2. **Performance**: Video should load and play with minimal buffering, maintaining smooth playback even on low-bandwidth connections.
+3. **Accessibility**: The player should be accessible to users with disabilities, providing keyboard navigation, screen reader support, and visual indicators.
+4. **Reliability**: The video player should operate consistently without crashes or major playback issues.
+5. **Security**: Video content must be securely streamed to prevent unauthorized downloads, with access restricted to enrolled users.
+6. **Compatibility**: The player should work across major web browsers (e.g., Chrome, Firefox, Safari) and operating systems (e.g., Windows, macOS, Android, iOS). 
+
+These requirements ensure that video playback is smooth, reliable, and accessible, enhancing the learning experience for students in the Software Engineering course.
