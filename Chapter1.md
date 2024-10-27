@@ -77,5 +77,13 @@
    Due to repeated development and testing cycles, iterative processes may take more time and resources, which can increase costs if the project’s scope is not well-defined.
 
 ---
+| Aspect              | Waterfall Model                                  | Iterative Model                                       |
+|---------------------|--------------------------------------------------|-------------------------------------------------------|
+| **Approach**        | Sequential                                       | Repetitive cycles                                     |
+| **Flexibility**     | Low (Changes are challenging)                    | High (Adapts to changing requirements)                |
+| **Customer Involvement** | Limited after initial requirements phase     | Encourages ongoing customer involvement               |
+| **Progress Tracking** | Measured by completion of predefined phases    | Measured by completion of iterations                  |
+| **Documentation**   | Emphasizes extensive documentation               | Documentation is typically less extensive             |
+| **Delivery**        | Final product delivered at the end               | Delivers a working subset in each iteration           |
+| **Suitability**     | Well-defined projects with stable requirements   | Projects with changing or unclear requirements        |
 
-Each model has specific strengths and weaknesses, and their suitability depends on the nature and requirements of the project, with the Waterfall Model favoring stable, well-defined projects and the Iterative Model supporting more flexible and evolving requirements.
