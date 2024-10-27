@@ -37,3 +37,14 @@
 6. **Collective Code Ownership:** Code is owned by the team, allowing anyone to contribute and improve it.
 7. **Sustainable Pace:** Maintains a steady, manageable work pace to avoid burnout.
 8. **Customer Involvement:** Customers are actively involved, providing feedback and clarifying requirements regularly.
+---
+**Q1(c). Explain how the principles underlying agile methods lead to the accelerated development  and deployment of software.**
+• **Customer Collaboration:** Agile emphasizes close collaboration with customers 
+throughout the project, ensuring that the team is always working on the most important 
+features. 
+• **Incremental Development:** By delivering small, functional increments frequently, teams 
+can quickly release usable software and gather feedback for future iterations. 
+• **Flexibility:** Agile allows teams to respond to changes in requirements, which reduces the 
+chances of delays caused by evolving customer needs. 
+• **Continuous Feedback:** Frequent feedback from customers and stakeholders helps in 
+refining the product early and often, reducing rework and accelerating deployment.
