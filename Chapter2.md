@@ -40,12 +40,12 @@
 ---
 **Q1(c). Explain how the principles underlying agile methods lead to the accelerated development  and deployment of software.**
 <br>
-• **Customer Collaboration:** Agile emphasizes close collaboration with customers 
+* **Customer Collaboration:** Agile emphasizes close collaboration with customers 
 throughout the project, ensuring that the team is always working on the most important 
-features. 
-• **Incremental Development:** By delivering small, functional increments frequently, teams 
+features.
+* **Incremental Development:** By delivering small, functional increments frequently, teams 
 can quickly release usable software and gather feedback for future iterations. 
-• **Flexibility:** Agile allows teams to respond to changes in requirements, which reduces the 
+* **Flexibility:** Agile allows teams to respond to changes in requirements, which reduces the 
 chances of delays caused by evolving customer needs. 
-• **Continuous Feedback:** Frequent feedback from customers and stakeholders helps in 
+* **Continuous Feedback:** Frequent feedback from customers and stakeholders helps in 
 refining the product early and often, reducing rework and accelerating deployment.
