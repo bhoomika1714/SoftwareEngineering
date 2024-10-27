@@ -185,7 +185,7 @@ The **Requirements Specification** stage involves documenting the gathered requi
      - Ensures that requirements are feasible within the technical and budget constraints.
 
 ---
-Here are the functional and non-functional requirements for playing a video on an LMS (Learning Management System) in a **Software Engineering course**.
+## The functional and non-functional requirements for playing a video on an LMS (Learning Management System) in a **Software Engineering course**.
 
 ### Functional Requirements
 1. **Play/Pause Control**: The video player must allow users to play, pause, rewind, and fast-forward the video.
