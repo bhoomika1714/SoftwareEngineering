@@ -87,3 +87,17 @@
 | **Delivery**        | Final product delivered at the end               | Delivers a working subset in each iteration           |
 | **Suitability**     | Well-defined projects with stable requirements   | Projects with changing or unclear requirements        |
 
+
+---
+
+1. **An online store**  
+   **Model:** *Incremental Development Model*  
+   **Justification:** An online store requires a range of features such as product catalog, payment processing, user accounts, and inventory management. Incremental development allows building the core functionalities in phases, enabling quick deployment of essential features while gradually adding more advanced ones. This approach also makes it easier to adapt to changing customer requirements and user feedback after each release, which is typical for online retail environments.
+
+2. **Toll Collection System for Highway Authorities**  
+   **Model:** *V-Model (Verification and Validation Model)*  
+   **Justification:** The V-Model emphasizes a structured approach with rigorous testing at each stage, which is crucial for a toll collection system as it involves handling real-time data, ensuring security, and providing high reliability. Each phase, from requirements gathering to deployment, aligns with a corresponding testing phase, helping to ensure the system meets accuracy and reliability standards before going live at multiple entry points.
+
+3. **New Operating System for Mobile Devices**  
+   **Model:** *Rapid Application Development (RAD) Model*  
+   **Justification:** Since the project requires delivery within a short time frame, the RAD model is ideal as it focuses on rapid prototyping and iterative releases. Developing an operating system involves significant user interface and system functionality, so frequent prototyping and customer feedback can help balance time constraints with functional requirements. RAD allows for quick adjustments based on feedback and helps reduce time to market, which is essential given the competitive nature of mobile OS development.
