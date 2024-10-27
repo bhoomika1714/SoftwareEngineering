@@ -49,3 +49,8 @@ can quickly release usable software and gather feedback for future iterations.
 chances of delays caused by evolving customer needs. 
 * **Continuous Feedback:** Frequent feedback from customers and stakeholders helps in 
 refining the product early and often, reducing rework and accelerating deployment.
+---
+### Agile Project Management:-
+* The principal responsibility of software project managers is to manage the project so that the software is delivered on time and within the planned budget for the project. 
+* The standard approach to project management is plan-driven. Managers draw up a plan for the project showing what should be delivered, when it should be delivered and who will work on the development of the project deliverables. 
+* Agile project management requires a different approach, which is adapted to incremental development and the practices used in agile methods. 
