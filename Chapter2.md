@@ -39,6 +39,7 @@
 8. **Customer Involvement:** Customers are actively involved, providing feedback and clarifying requirements regularly.
 ---
 **Q1(c). Explain how the principles underlying agile methods lead to the accelerated development  and deployment of software.**
+<br>
 • **Customer Collaboration:** Agile emphasizes close collaboration with customers 
 throughout the project, ensuring that the team is always working on the most important 
 features. 
