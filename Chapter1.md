@@ -101,3 +101,31 @@
 3. **New Operating System for Mobile Devices**  
    **Model:** *Rapid Application Development (RAD) Model*  
    **Justification:** Since the project requires delivery within a short time frame, the RAD model is ideal as it focuses on rapid prototyping and iterative releases. Developing an operating system involves significant user interface and system functionality, so frequent prototyping and customer feedback can help balance time constraints with functional requirements. RAD allows for quick adjustments based on feedback and helps reduce time to market, which is essential given the competitive nature of mobile OS development.
+
+![image](https://github.com/user-attachments/assets/90a7c3e8-8738-421e-abf9-3d762ddb5493)
+**Principles of Agile model**
+* There is a customer representative in the development team to maintain contact with the customer during software development and to understand the requirement. When an iteration is completed, stakeholders and customer representatives review it and re-evaluate the requirements.
+* Demo of working software is given to understand the customer’s requirements. That is, it does not depend only on documentation.
+* Incremental versions of the software have to be delivered to the customer representative after a few weeks.
+* In this model it is advised that the size of the development team should be small (5 to 9 people) so that the team members can communicate face to face.
+* Agile model focuses on the fact that whenever any changes have to be made in the software, it should be completed quickly.
+*  agile development, two programmers work together. One programmer does the coding and the other reviews that code. Both the programmers keep changing their tasks, that is, sometimes one does coding and sometimes someone reviews.
+
+###  Advantages of Agile Model
+* In this, two programmers work together due to which the code is error free and there are very few mistakes in it.
+* In this the software project is completed in a very short time.
+* In this the customer representative has an idea of ​​each iteration so that he can easily change the requirement.
+* This is a very realistic approach to software development.
+* In this, focus is given on teamwork.
+* There are very few rules in this and documentation is also negligible.
+* There is no need for planning in this.
+* It can be managed easily.
+* It provides flexibility to developers.
+### Disadvantages of Agile Model
+* It cannot handle complex dependencies.
+* Due to lack of formal documentation in this, there is confusion in development.
+* It mostly depends on the customer representative, if the customer representative gives any wrong information then the software can become wrong.
+* Only experienced programmers can take any decision in this. New programmers cannot take any decision.
+* In the beginning of software development, it is not known how much effort and time will be required to create the software.
+Comparision of different kind of Models:-
+  ![Comparison-of-Various-Process-Model-using-Different-Parameter](https://github.com/user-attachments/assets/1c851b6e-7599-49e6-a04b-d96f6a5acc7c)
