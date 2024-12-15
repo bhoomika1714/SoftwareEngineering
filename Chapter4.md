@@ -31,3 +31,20 @@ systems.
 - Represented diagramatically to provide an 
 overview of the use case and in a more detailed 
 textual form.
+---
+
+
+| **Test ID** | **Description**                        | **Steps**                                                                                         | **Input**                       | **Expected Output**                                             | **Actual Output**                                           | **Test Case (Pass/Fail)** |
+|-------------|----------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------|---------------------------------------------------------------|-----------------------------------------------------------|---------------------------|
+| TC01        | Drone connects to the server           | 1. Power on the drone.<br>2. Attempt to connect to the server.                                   | Drone ID: D001, Server IP: 192.168.1.10 | Connection status shows "Connected."                        | Connection status shows "Connected."                      | Pass                      |
+| TC02        | Drone receives a move command          | 1. Log in to the operator interface.<br>2. Send a "Move to Position" command.                    | Command: Move to X: 50, Y: 50  | Drone moves to the specified position and confirms.           | Drone moved to X: 50, Y: 50 and confirmed.                | Pass                      |
+| TC03        | Drone avoids an obstacle autonomously  | 1. Place an obstacle ahead of the drone.<br>2. Enable autonomous mode.<br>3. Monitor its path.   | Obstacle at X: 20, Y: 20        | Drone changes its path to avoid the obstacle.                | Drone changed its path and avoided the obstacle.          | Pass                      |
+| TC04        | Drone herds cattle to a boundary       | 1. Set herding boundaries.<br>2. Enable herding mode.                                            | Boundary: X: 0-100, Y: 0-100    | Drone herds cattle to stay within the specified boundary.     | Drone herded cattle within the boundary.                  | Pass                      |
+| TC05        | Drone syncs updated cattle positions   | 1. Update cattle position.<br>2. Check all layers for synchronization.                          | New position: X: 70, Y: 80      | Updated position reflected across all layers.                | Position synchronized and reflected in all layers.        | Pass                      |
+| TC06        | Manual override halts autonomous mode  | 1. Enable autonomous herding mode.<br>2. Send a "Return to Base" command.                       | Command: Return to Base         | Drone halts and returns to the base immediately.             | Drone halted and returned to the base.                   | Pass                      |
+| TC07        | Drone telemetry is displayed correctly | 1. Open monitoring interface.<br>2. Observe telemetry data.                                     | Drone ID: D001                  | Real-time telemetry (battery, position) is displayed.         | Telemetry shows battery: 85%, Position: X: 10, Y: 15.    | Pass                      |
+
+### Explanation of Simplifications:
+- The **Inputs** include direct examples for easier testing.
+- The **Expected Output** and **Actual Output** columns are based on basic success scenarios.
+- Focused on core functionalities to simplify the scenarios.
