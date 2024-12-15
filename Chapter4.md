@@ -48,3 +48,35 @@ textual form.
 - The **Inputs** include direct examples for easier testing.
 - The **Expected Output** and **Actual Output** columns are based on basic success scenarios.
 - Focused on core functionalities to simplify the scenarios.
+---
+
+| **Test ID** | **Description**                        | **Steps**                                                                                         | **Input**                       | **Expected Output**                                             | **Actual Output**                                           | **Test Case (Pass/Fail)** |
+|-------------|----------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------|---------------------------------------------------------------|-----------------------------------------------------------|---------------------------|
+| TC01        | Drone connects to the server           | 1. Power on the drone.<br>2. Attempt to connect to the server.                                   | Drone ID: D001, Server IP: 192.168.1.10 | Connection status shows "Connected."                        | Connection status shows "Failed to Connect."              | Fail                      |
+| **Failure Reason**: Server was unreachable due to network issues or incorrect IP address.                                                                                                      |                                 |                                                                  |                                                           |                           |
+| TC02        | Drone receives a move command          | 1. Log in to the operator interface.<br>2. Send a "Move to Position" command.                    | Command: Move to X: 50, Y: 50  | Drone moves to the specified position and confirms.           | Drone did not move to the specified position.             | Fail                      |
+| **Failure Reason**: Command lost due to communication issues or invalid drone ID.                                                                                                             |                                 |                                                                  |                                                           |                           |
+| TC03        | Drone avoids an obstacle autonomously  | 1. Place an obstacle ahead of the drone.<br>2. Enable autonomous mode.<br>3. Monitor its path.   | Obstacle at X: 20, Y: 20        | Drone changes its path to avoid the obstacle.                | Drone collided with the obstacle.                        | Fail                      |
+| **Failure Reason**: Obstacle detection sensor malfunctioned or decision-making algorithm error.                                                                                              |                                 |                                                                  |                                                           |                           |
+| TC04        | Drone herds cattle to a boundary       | 1. Set herding boundaries.<br>2. Enable herding mode.                                            | Boundary: X: 0-100, Y: 0-100    | Drone herds cattle to stay within the specified boundary.     | Cattle strayed out of the boundary.                      | Fail                      |
+| **Failure Reason**: Drone's herding algorithm failed or cattle movement speed exceeded drone response.                                                                                       |                                 |                                                                  |                                                           |                           |
+| TC05        | Drone syncs updated cattle positions   | 1. Update cattle position.<br>2. Check all layers for synchronization.                          | New position: X: 70, Y: 80      | Updated position reflected across all layers.                | Position not synchronized in all layers.                 | Fail                      |
+| **Failure Reason**: Data sync issue in one or more layers due to latency or database failure.                                                                                               |                                 |                                                                  |                                                           |                           |
+| TC06        | Manual override halts autonomous mode  | 1. Enable autonomous herding mode.<br>2. Send a "Return to Base" command.                       | Command: Return to Base         | Drone halts and returns to the base immediately.             | Drone did not halt autonomous operations.                | Fail                      |
+| **Failure Reason**: Manual override command not received or override priority was not implemented correctly.                                                                                 |                                 |                                                                  |                                                           |                           |
+| TC07        | Drone telemetry is displayed correctly | 1. Open monitoring interface.<br>2. Observe telemetry data.                                     | Drone ID: D001                  | Real-time telemetry (battery, position) is displayed.         | Telemetry data was missing or incorrect.                 | Fail                      |
+| **Failure Reason**: Telemetry not updated due to a communication failure between the drone and server.                                                                                      |                                 |                                                                  |                                                           |                           |
+
+### Notes on Failures:
+1. **Common Root Causes**:
+   - Network connectivity issues between drone and server.
+   - Malfunctions in sensors or hardware components.
+   - Software logic errors in communication or decision-making layers.
+   - Synchronization and database write latency in multi-layer systems.
+
+2. **Steps for Debugging**:
+   - Check drone-server connectivity and logs.
+   - Verify input commands and the integrity of transmitted data.
+   - Analyze logs and exception traces from each architectural layer.
+   - Test sensors and drone hardware independently for malfunctions.
+
