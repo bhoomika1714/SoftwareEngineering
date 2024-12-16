@@ -79,4 +79,47 @@ textual form.
    - Verify input commands and the integrity of transmitted data.
    - Analyze logs and exception traces from each architectural layer.
    - Test sensors and drone hardware independently for malfunctions.
+---
+
+
+### 1. **Test Case for User Registration**
+
+| **Test Case ID** | **Description**                           | **Expected Output**               | **Actual Output**           | **Result (Pass/Fail)** |
+|------------------|-------------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| TC_01            | Test valid user registration with all fields filled | User is successfully registered, a confirmation message is displayed | User is successfully registered, confirmation message displayed | Pass                   |
+| TC_02            | Test user registration with missing mandatory fields | Error message: "All fields are required" | Error message: "All fields are required" | Pass                   |
+| TC_03            | Test user registration with invalid email format | Error message: "Invalid email format" | Error message: "Invalid email format" | Pass                   |
+| TC_04            | Test user registration with weak password | Error message: "Password must contain at least 8 characters, including a number and a special character" | Error message: "Password must contain at least 8 characters, including a number and a special character" | Pass                   |
+
+### 2. **Test Case for User Login**
+
+| **Test Case ID** | **Description**                           | **Expected Output**               | **Actual Output**           | **Result (Pass/Fail)** |
+|------------------|-------------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| TC_05            | Test valid login with registered user | User is successfully logged in, and redirected to the dashboard | User successfully logged in, dashboard loaded | Pass                   |
+| TC_06            | Test login with incorrect email | Error message: "Email not found" | Error message: "Email not found" | Pass                   |
+| TC_07            | Test login with incorrect password | Error message: "Incorrect password" | Error message: "Incorrect password" | Pass                   |
+
+### 3. **Test Case for Journal Submission**
+
+| **Test Case ID** | **Description**                           | **Expected Output**               | **Actual Output**           | **Result (Pass/Fail)** |
+|------------------|-------------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| TC_08            | Test submitting a journal with all required fields | Journal is submitted successfully, confirmation message displayed | Journal submitted, confirmation message displayed | Pass                   |
+| TC_09            | Test submitting an empty journal | Error message: "Journal content cannot be empty" | Error message: "Journal content cannot be empty" | Pass                   |
+| TC_10            | Test submitting a journal with a file attachment larger than the allowed size | Error message: "File size exceeds the limit" | Error message: "File size exceeds the limit" | Pass                   |
+
+### 4. **Test Case for Commenting on a Journal**
+
+| **Test Case ID** | **Description**                           | **Expected Output**               | **Actual Output**           | **Result (Pass/Fail)** |
+|------------------|-------------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| TC_11            | Test adding a valid comment to a journal | Comment is successfully added, displayed below the journal | Comment added, displayed below the journal | Pass                   |
+| TC_12            | Test adding a comment with empty content | Error message: "Comment cannot be empty" | Error message: "Comment cannot be empty" | Pass                   |
+| TC_13            | Test adding a comment with inappropriate language | Error message: "Inappropriate language is not allowed" | Error message: "Inappropriate language is not allowed" | Pass                   |
+
+### 5. **Test Case for User Profile Update**
+
+| **Test Case ID** | **Description**                           | **Expected Output**               | **Actual Output**           | **Result (Pass/Fail)** |
+|------------------|-------------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| TC_14            | Test updating the user's profile with valid data | Profile is successfully updated, confirmation message displayed | Profile updated, confirmation message displayed | Pass                   |
+| TC_15            | Test updating the user's profile with an invalid email | Error message: "Invalid email format" | Error message: "Invalid email format" | Pass                   |
+
 
