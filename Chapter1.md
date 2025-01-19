@@ -143,6 +143,5 @@ Comparision of different kind of Models:-
 | **Incremental Model**   | Partial development, Phased delivery, Feedback, Additive | - Developed and delivered in increments.<br>- Allows for partial delivery early.<br>- Encourages feedback after each increment. |
 | **Prototyping Model**   | Prototype, Mockups, Iterative design, User feedback | - Early prototypes to clarify requirements.<br>- Customer involvement and feedback.<br>- Reduces risks from unclear requirements. |
 | **RAD Model**           | Speed, Quick delivery, Time-sensitive, Modular | - Focuses on rapid prototyping.<br>- Heavy use of reusable components.<br>- Best for tight deadlines. |
-
 | **Scrum (Agile)**       | Sprints, Standups, Backlog, Iterative, Team-focused | - Agile framework with roles (Scrum Master, Product Owner).<br>- Time-boxed sprints and stand-up meetings.<br>- Excellent for evolving projects. |
 
