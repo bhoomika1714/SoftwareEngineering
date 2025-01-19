@@ -129,3 +129,20 @@
 * In the beginning of software development, it is not known how much effort and time will be required to create the software.
 Comparision of different kind of Models:-
   ![Comparison-of-Various-Process-Model-using-Different-Parameter](https://github.com/user-attachments/assets/1c851b6e-7599-49e6-a04b-d96f6a5acc7c)
+
+--
+# KEY POINTS TO REMEMBER : 
+
+
+| **Model**              | **Keywords**                      | **Key Points**                                                                 |
+|-------------------------|------------------------------------|--------------------------------------------------------------------------------|
+| **Waterfall Model**     | Sequential, Linear, Rigid, Phases, Documentation-heavy | - Fixed phases: Requirements → Design → Implementation → Testing → Deployment.<br>- Best for small, well-understood projects.<br>- Difficult to accommodate changes. |
+| **Agile Model**         | Iterative, Incremental, Flexible, Collaboration, Sprints | - Development in increments (sprints).<br>- Adapts to changing requirements.<br>- Frequent delivery and customer collaboration. |
+| **Spiral Model**        | Risk analysis, Iterative, Cyclical, Prototyping, Risk-driven | - Combines Waterfall and Prototyping.<br>- Includes risk assessment in each phase.<br>- Best for large, high-risk projects. |
+| **V-Model**             | Testing, Parallel, Validation, Verification | - Testing at every stage of development.<br>- Parallel execution of development and testing.<br>- Suitable for critical systems. |
+| **Incremental Model**   | Partial development, Phased delivery, Feedback, Additive | - Developed and delivered in increments.<br>- Allows for partial delivery early.<br>- Encourages feedback after each increment. |
+| **Prototyping Model**   | Prototype, Mockups, Iterative design, User feedback | - Early prototypes to clarify requirements.<br>- Customer involvement and feedback.<br>- Reduces risks from unclear requirements. |
+| **RAD Model**           | Speed, Quick delivery, Time-sensitive, Modular | - Focuses on rapid prototyping.<br>- Heavy use of reusable components.<br>- Best for tight deadlines. |
+
+| **Scrum (Agile)**       | Sprints, Standups, Backlog, Iterative, Team-focused | - Agile framework with roles (Scrum Master, Product Owner).<br>- Time-boxed sprints and stand-up meetings.<br>- Excellent for evolving projects. |
+
